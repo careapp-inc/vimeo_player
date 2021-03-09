@@ -31,7 +31,7 @@ class _VimeoPlayerState extends State<VimeoPlayer> {
   String _id;
   bool autoPlay = false;
   bool looping = false;
-  bool _overlay = true;
+  bool _overlay = false;
   bool fullScreen = false;
   int position;
 
@@ -179,8 +179,8 @@ class _VimeoPlayerState extends State<VimeoPlayer> {
               margin: EdgeInsets.fromLTRB(
                   0, 10, doubleTapLWidth / 2 + 30, doubleTapLMargin + 20),
               decoration: BoxDecoration(
-                //color: Colors.red,
-              ),
+                  //color: Colors.red,
+                  ),
             ),
 
             // Изменение размера блоков дабл тапа. Нужно для открытия кнопок
@@ -215,8 +215,8 @@ class _VimeoPlayerState extends State<VimeoPlayer> {
               margin: EdgeInsets.fromLTRB(doubleTapRWidth / 2 + 45,
                   doubleTapRMargin, 0, doubleTapRMargin + 20),
               decoration: BoxDecoration(
-                //color: Colors.red,
-              ),
+                  //color: Colors.red,
+                  ),
             ),
             // Изменение размера блоков дабл тапа. Нужно для открытия кнопок
             // "Во весь экран" и "Качество" при включенном overlay
