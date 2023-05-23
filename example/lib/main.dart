@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       //primarySwatch: Colors.red,
       theme: ThemeData.dark().copyWith(
-        accentColor: Color(0xFF22A3D2),
+        hintColor: Color(0xFF22A3D2),
       ),
       home: VideoScreen(),
     );
